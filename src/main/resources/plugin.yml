@@ -1,0 +1,7 @@
+name: Gravestones
+version: ${project.version}
+main: cc.fascinated.gravestones.Gravestones
+api-version: 1.16
+authors: [ImFascinated]
+description: An easy to use gravestone plugin
+depend: [HolographicDisplays]

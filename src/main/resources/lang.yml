@@ -1,0 +1,3 @@
+prefix: "&dGravestones &8▪ "
+no-permission: "&cYou do not have permission to execute this command."
+grave-located: "&7Your &6grave &7is located at &6X:%xloc%&7, &6Y:%yloc%&7, &6Z:%zloc%&7, &6World:%world%"

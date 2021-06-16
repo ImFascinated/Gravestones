@@ -1,0 +1,36 @@
+# Placeholders:
+#
+# %player% - The player's name
+# %time-left% - The time left until the grave expires (formatted)
+# %item-count% - The amount of items in the grave
+
+settings:
+  # The grave type to be used (configured below)
+  active-grave-type: CHEST # Chest, etc, etc
+
+  # Log to console that the grave has been created
+  log-grave-creation: true
+
+  # Should we create graves if the player has no items
+  create-empty-graves: false
+
+items:
+  gravestone-item:
+    displayname: "&a%player%'s DeathChest"
+      material: PAPER
+      amount: 1
+      lore:
+        - "&7Location:"
+        - "&e  X: %xloc%"
+        - "&e  Y: %yloc%"
+        - "&e  Z: %zloc%"
+        - "&e  World: %world%"
+
+types:
+  CHEST:
+    hologram:
+      - "&6%player%'s Grave"
+      - "&f%item-count% Items"
+      - ""
+      - "&eTime Left:"
+      - "&f%time-left%"
